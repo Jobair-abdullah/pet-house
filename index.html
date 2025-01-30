@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title  > Bro wse 4 Pets</title>
+    <link  rel="  shortcut icon" href="c1-assets/logo-header.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style>
+        
+.sora-font {
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ .adlam-display-regular{
+  font-family: "ADLaM Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+      </style>
+</head>
+<body >
+    <header class=" sora-font  bg-orange-50 w-auto ">
+        <!-- main div for header -->
+         <div class="flex justify-between md:px-24 py-3">
+            <div class="flex">
+                <!-- this work for header one -->
+                <div  >
+                    <img class="pl-6"  src="c1-assets/logo-header.png" alt="">
+                </div>
+                <div class="pl-4 pt-4 hidden sm:block">
+                    <h4>Browse <span class="text-yellow-400 font-extrabold">4 </span> Pets</h4>
+                </div>
+            </div>
+            <div class="  hidden sm:block md:flex md:gap-8 text-sm items-center text-gray-700">
+                <!-- this work for header two -->
+                 <p class="hover:text-yellow-500 hover:font-extrabold">Find a pet</p>
+                 <p class="hover:text-red-500 hover:font-extrabold">Breeds</p>
+                 <p class="hover:text-blue-500 hover:font-extrabold">Contact us</p>
+                 
+            </div>
+            <div class=" md:flex gap-4 items-center hidden sm:block">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+                  </svg>
+                  <button class=" hover:bg-yellow-400 hover:text-white hover:text-3xl hover:font-extrabold border-2 border-yellow-300 py-1 px-4 rounded-xl">Login</button>
+                  <button class="bg-yellow-500 hover:bg-orange-950 hover:text-white hover:text-3xl hover:font-extrabold py-1 px-4 rounded-xl md:mr-20">Register</button>
+                  
+                  
+            </div>
+
+
+
+            <div class="md:hidden pr-7">
+                <button id="menu-btn" class="text-gray-600 hover:font-extrabold hover:text-yellow-500 focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+
+         </div>
+
+    </header>
+    <main>
+        <section class=" md:ml-40 ml-7 md:mr-40 ">
+            <div class="hidden sm:block">
+                <h1 class="adlam-display-regular font-extrabold text-3xl md:text-5xl  md:pt-20 pt-10">Pamper Your Pet, <br> Because They Deserve <br>the Bes</h1>
+                <p class="text-gray-500 pt-6 text-xl">Discover a world of treats, toys, and essentials handpicked for  <br>your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="hover:bg-yellow-400 text-white hover:text-black bg-yellow-500 hover:text-2xl hover:font-bold border-2 border-yellow-300 py-2 px-6 rounded-xl mt-7"> hfds</button>
+                <div class="absolute -top-0 -z-10 "> <img src="c1-assets/cat-big.png" alt=""></div>
+
+            </div>
+           
+        <div class=" block md:hidden">
+               
+                <h1 class="adlam-display-regular font-extrabold text-3xl md:text-5xl  md:pt-20 pt-10">Pamper Your Pet, <br> Because They Deserve <br>the Bes</h1>
+                <p class="text-gray-500 pt-6 text-xl">Discover a world of treats, toys, and essentials handpicked for  <br>your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="hover:bg-yellow-400 text-white hover:text-black bg-yellow-500 hover:text-2xl hover:font-bold border-2 border-yellow-300 py-2 px-6 rounded-xl mt-7"> hfds</button>
+                <img src="c1-assets/cat-big.png" alt="">
+               
+                
+            </div>
+            
+                
+               
+            
+
+    
+        </section>
+    </main>
+</body>
+</html>
